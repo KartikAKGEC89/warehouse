@@ -5,7 +5,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const home = require("./routers/home");
 const app = express();
-const cores = require("cores");
+const cors = require("cors");
 
 app.set('view engine', 'ejs');
 

@@ -2,7 +2,8 @@ const express =require("express");
 const homeSchema = require("../models/homeSchema");
 const Router = express.Router();
 const userSchema = require('../models/homeSchema');
-const cores = require("cores");
+const cors = require("cors");
+
 Router.get('/',(err,res) => {
     res.render('register',{title:"Fill Form"})
 })
